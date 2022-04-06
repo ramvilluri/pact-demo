@@ -5,4 +5,4 @@ run-consumer:
 
 unit:
 	@echo "--- 🔨Running Unit tests "
-	go test -count=1
+	go test pact-demo/consumer/client -run 'TestClientUnit'
